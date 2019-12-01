@@ -6,8 +6,10 @@
  [QuickDraw-Dataset](https://github.com/googlecreativelab/quickdraw-dataset)
  ![image](https://user-images.githubusercontent.com/54701846/69910685-ecbe7500-1452-11ea-855f-9e83a8edd4d8.png)
  
+- 기존 CGAN과 DCGAN의 이름을 따와 편의를 위해 cDCGAN으로 이름을 붙임 
 ## 1차 
-- Generator 에 341(기존 class+False) + 100(Noise) 를 넣어주고 Discriminator에 Labeling 된 Dataset을 넣어 분류하게 해 QuickDraw Image를 그려내도록 하기  
+- Generator 에 341(기존 class+False) + 100(Noise) 를 넣어주고 Discriminator에 Labeling 된 Dataset을 넣어 분류하게 해 QuickDraw Image를 그려내도록 하기
+
 ![image](https://user-images.githubusercontent.com/54701846/69911937-f4d3e000-1465-11ea-9420-741b6f1543c6.png)
 
 -그림을 그리지 못하고 noise image만 생성
@@ -28,6 +30,7 @@
  
 ## 3차 
  - 단일 Class로 학습시킨 결과 
+ [DCGAN_apple](https://github.com/skamo3/text-to-image/blob/master/DCGAN_apple.ipynb)
  ![image](https://user-images.githubusercontent.com/54701846/69912789-7ed57600-1471-11ea-82b7-f4d1ffc36be4.png)
 
  - 전보단 나은 양상을 보이지만 여전히 그리는데에 한계가 있음
