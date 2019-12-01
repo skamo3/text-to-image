@@ -6,11 +6,13 @@
  [QuickDraw-Dataset](https://github.com/googlecreativelab/quickdraw-dataset)
  ![image](https://user-images.githubusercontent.com/54701846/69910685-ecbe7500-1452-11ea-855f-9e83a8edd4d8.png)
  
-- 기존 CGAN과 DCGAN의 이름을 따와 편의를 위해 cDCGAN으로 이름을 붙임 
 ## 1차 
+
 - Generator 에 341(기존 class+False) + 100(Noise) 를 넣어주고 Discriminator에 Labeling 된 Dataset을 넣어 분류하게 해 QuickDraw Image를 그려내도록 하기
 
 ![image](https://user-images.githubusercontent.com/54701846/69911937-f4d3e000-1465-11ea-9420-741b6f1543c6.png)
+
+- 기존 CGAN과 DCGAN의 이름을 따와 편의를 위해 [cDCGAN](https://github.com/skamo3/text-to-image/blob/master/cDCGAN.ipynb)으로 이름을 붙임 
 
 -그림을 그리지 못하고 noise image만 생성
 
